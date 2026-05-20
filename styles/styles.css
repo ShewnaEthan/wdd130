@@ -1,3 +1,8 @@
+:root {
+    --border-color: black;
+    --border-thickness: 1px;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -20,7 +25,7 @@ main {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border-thickness) solid var(--border-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -33,19 +38,19 @@ aside {
     width: 20rem;
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.1);
+    border: var(--border-thickness) solid rgb(0 0 0 / 0.1);
     background-color: #eee;
     color: #333;
     text-align: center;
 }
 
-aside img{ 
+aside img {
     width: 200px;
     height: auto;
 }
 
-footer{
+footer {
     margin-top: 3rem;
-    border-top: 1px solid black;
+    border-top: var(--border-thickness) solid var(--border-color);
     text-align: center;
 }
