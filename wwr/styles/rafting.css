@@ -2,7 +2,7 @@
     --primary-color: #003c66;
     --secondary-color: #9d5c63;
     --accent-color1: #ffa90a;
-    --accent-color2: #f82222;
+    /* To be used color accent-color2: #f82222; */
     --accent-color3: #e6dfdb;
     --dark-text-color: #02040f;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -61,7 +61,6 @@ h2 {
 header img {
     display: flex;
     max-width: 200px;
-    max-height: auto;
     padding: 20px;
     justify-self: start;
     align-self: center;
