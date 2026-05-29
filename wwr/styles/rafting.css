@@ -1,13 +1,14 @@
 :root {
     --primary-color: #003c66;
-    --secondary-color: #b3937f;
+    --secondary-color: #9d5c63;
     --accent-color1: #ffa90a;
-    --accent-color2: #9d5c63;
+    --accent-color2: #f82222;
     --accent-color3: #e6dfdb;
     --dark-text-color: #02040f;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
     --basic-border: 1px solid black;
+    
 }
 
 * {
@@ -48,7 +49,7 @@ h1 {
     padding: 15px;
     text-align: center;
     opacity: 0.75;
-    background-color: var(--secondary-color);
+    background-color: var(--accent-color3);
 }
 
 h1,
@@ -93,6 +94,7 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: var(--primary-color);
+    color: var(--accent-color3)
 }
 
 footer img {
@@ -137,7 +139,7 @@ footer img {
     margin: 10px 0;
     border: var(--basic-border);
     background-color: var(--accent-color3);
-    color: var(--accent-color2)
+    color: var(--dark-text-color)
 }
 
 .history h2{
