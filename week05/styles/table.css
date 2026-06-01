@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid #aaa;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+th, td {
+    border: 1px soild #ccc;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+thead tr, tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
